@@ -1,0 +1,17 @@
+# This is a systemd service
+
+[Unit]
+Description=WSL Mount External Vhdx
+# This also blocks system to finish starting so that the disk 
+# will be available as soon as the user shell is created.
+Before=local-fs-pre.target
+
+[Service]
+Type=oneshot
+# This is the script to do the mount,
+# Change if you have put it on else where
+ExecStart=/usr/local/sbin/wsl-mount-external-vhd.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

@@ -7,5 +7,8 @@ at the comments you may figure it out quickly.
 
 ## List
 
-| Path | Notes |
-|------|-------|
+| Name | Description |
+|------|-------------|
+|[mount-external-vhd]| Attach a external vhd/vhdx to wsl instance when boot, and mount it as e.g. your home directory. (**require systemd enabled**) |
+
+  [mount-external-vhd]: ./mount-external-vhd/
