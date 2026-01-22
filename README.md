@@ -7,8 +7,8 @@ at the comments you may figure it out quickly.
 
 ## List
 
-| Name | Description |
-|------|-------------|
-|[mount-external-vhd]| Attach a external vhd/vhdx to wsl instance when boot, and mount it as e.g. your home directory. (**require systemd enabled**) |
+| Name                                        | Description                                                                                                                             |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| [mount-external-vhd](./mount-external-vhd/) | Attach an external VHD/VHDX to the WSL instance on boot and mount it (e.g., as your home directory). Requires systemd.                 |
+| [ssh-agent-replay](./ssh-agent-replay/)     | Relay the Windows ssh-agent into WSL using npiperelay and socat. Requires systemd.                                                      |
 
-  [mount-external-vhd]: ./mount-external-vhd/

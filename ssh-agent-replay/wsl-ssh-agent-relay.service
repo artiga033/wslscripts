@@ -1,0 +1,9 @@
+[Unit]
+Description=WSL Relay SSH Agent
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/wsl-ssh-agent-relay.sh
+
+[Install]
+WantedBy=default.target
