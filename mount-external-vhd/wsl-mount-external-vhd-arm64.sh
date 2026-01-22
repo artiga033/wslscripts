@@ -7,6 +7,11 @@
 # tested on my Surface Pro 11 with Snapdragon XElite with btrfs, no compression.
 # CONSIDER TWICE before you really decided to do this.
 #
+# If you really care about the performance penalty,
+# and your only purpose is to have a fs other than ext4 to use,
+# I would suggest this: https://github.com/artiga033/WSL/releases/tag/feature-release%2Fcustom-root-fs%402.6.3
+# It even makes your `/` into any fs you like.
+#
 # This file is considerd to be put under /usr/local/sbin/
 # If you put it else where, you may also change the parameter in the systemd service.
 # 
